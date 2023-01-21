@@ -117,7 +117,7 @@ end
 
 print 'Player 1 name: '
 player1 = Player.new(gets.chomp, 'X')
-print 'Player 1 name: '
+print 'Player 2 name: '
 player2 = Player.new(gets.chomp, 'O')
 
 tic_tac_toe = TicTacToe.new(player1, player2)
